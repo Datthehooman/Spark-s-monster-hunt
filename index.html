@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spark's monster hunt|Datthehooman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas id="canvas1"></canvas>
+    <div class="howToPlay">
+      <h1>How to play</h1>
+      <ul>
+        <li>Left and right arrow keys to move back and forth.</li>
+        <li>Up arrow key to jump and the down arrow key to crouch.</li>
+        <li>
+          Space bar to use Spark's special ability: transform into a fireball
+          and roll to attack enemies.
+        </li>
+        <li>
+          While jumping, press the down arrow key to perform a ground pound and
+          create an explosion.
+        </li>
+        <li>
+          Spark needs to score 40 points to win within 60 seconds, losing 5
+          points each time it gets hit.
+        </li>
+        <li>Spark has 3 lives and loses one each time it takes damage.</li>
+        <li>Press "r" key to reset the game.</li>
+        <h4>
+          Good luck helping Spark complete its mission to protect humanity!
+        </h4>
+      </ul>
+    </div>
+
+    <img id="player" src="./assets/player/player.png" />
+    <img id="layer1" src="./assets/background/city/layer-1.png" />
+    <img id="layer2" src="./assets/background/city/layer-2.png" />
+    <img id="layer3" src="./assets/background/city/layer-3.png" />
+    <img id="layer4" src="./assets/background/city/layer-4.png" />
+    <img id="layer5" src="./assets/background/city/layer-5.png" />
+    <img id="enemy_fly" src="./assets/enemies/enemy_fly.png" />
+    <img id="enemy_plant" src="./assets/enemies/enemy_plant.png" />
+    <img id="enemy_spider_big" src="./assets/enemies/enemy_spider_big.png" />
+    <img id="fire" src="./assets/particles/fire.png" />
+    <img id="collisionAnimation" src="./assets/particles/boom.png" />
+    <img id="lives" src="./assets/ui/lives.png" />
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
